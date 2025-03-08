@@ -1,0 +1,10 @@
+addi x1,x0,10
+addi x10,x0,1
+addi x2,x0,1
+beq x1,x0,16
+mul x2,x1,x2
+sub x1,x1,x10
+bne x1,x0,-12
+jal x0,4
+sw x0,0(x0)
+sw x2,0(x0)
