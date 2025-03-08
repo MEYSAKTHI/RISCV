@@ -4,7 +4,7 @@ This project implements an assembler and CPU simulator for RISC-V-like instructi
 
 ## Features
 - **Assembler**: Converts RISC-V-like assembly instructions to machine code.
-- **CPU Simulator**: Implements a  pipeline-based CPU model with stages.
+- **CPU Simulator**: Implements a  pipeline-based CPU model with 5-stages.
 - **Cache Simulator**: Simulates cache memory with hit/miss tracking and different memory access policies.
 
 ## Supported RISC-V Instructions
